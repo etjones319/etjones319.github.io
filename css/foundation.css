@@ -1046,7 +1046,8 @@ button {
   .large-offset-8 {
     margin-left: 66.66667%; }
   .large-10 {
-    width: 83.33333%; }
+    width: 83.33333%;
+    max-width: 1400px;	}
   .large-push-10 {
     position: relative;
     left: 83.33333%; }
@@ -2077,7 +2078,7 @@ select {
   .menu input,
   .menu a,
   .menu button {
-    margin-bottom: 0; }
+    margin-bottom: -.8em; }
   .menu > li > a img,
   .menu > li > a i,
   .menu > li > a svg {
