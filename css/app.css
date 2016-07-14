@@ -1,0 +1,19 @@
+fieldset:not(.active) {
+  display: none;
+  background:black;
+}
+fieldset.active:first-of-type ~ .buttons a.prev {
+	display:none
+}
+fieldset.active:first-of-type ~ .buttons a.submit {
+	display:none
+}
+fieldset.active:nth-of-type(2) ~ .buttons a.submit {
+	display:none
+}
+fieldset.active:nth-of-type(3) ~ .buttons a.next {
+	display:none
+}
+div.inactive {
+	display:none;
+}
