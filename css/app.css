@@ -17,3 +17,23 @@ fieldset.active:nth-of-type(3) ~ .buttons a.next {
 div.inactive {
 	display:none;
 }
+#checkbox1 {
+	vertical-align:middle;
+	margin-bottom:0px; 
+	margin-left:.2em
+}
+#labelCheck1 {
+	vertical-align:middle;
+	margin-bottom:0px; 
+	margin-left:0px;
+}
+.docs-nav-title{
+	text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #999;
+    font-weight: bold;
+    line-height: 1;
+    padding-left: 0.9rem;
+    margin-top: .7rem;
+    padding-top: 1.5rem;
+}
